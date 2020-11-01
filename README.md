@@ -1,9 +1,8 @@
 # Hi, I'm Owen Easter 🤖
+## I'm a Full Stack Software Engineer
 
 [![Website](https://img.shields.io/badge/Easter%20Company-website-orange)](https://www.easter.company)
 [![Twitter](https://img.shields.io/twitter/follow/eastercompany?label=Easter%20Company&style=social)](https://twitter.com/eastercompany)
-
-## I'm a Full Stack Software Engineer
 
 - 🔭 I am launching my first product over @ <a href='https://www.easter.company/'>Easter Company</a>
 - 🌱 I am currently learning project management & embedded software
