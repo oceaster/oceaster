@@ -3,13 +3,6 @@
 [![Website](https://img.shields.io/badge/Easter%20Company-website-orange)](https://www.easter.company)
 [![Twitter](https://img.shields.io/twitter/follow/eastercompany?label=Easter%20Company&style=social)](https://twitter.com/eastercompany)
 
-## I'm a Full Stack Software Engineer
-
-- 🔭 I am launching my first product over @ <a href='https://www.easter.company/'>Easter Company</a>
-- 🌱 I am currently learning project management & embedded software
-- 👯 I am looking to join a disruptive start-up company with ambitious goals!
-- ⚡ I love motorcycles & mechanical engineering too!
-
 ### Follow me anywhere:
 
 [<img align="left" alt="easter.company" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
