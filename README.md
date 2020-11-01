@@ -5,9 +5,9 @@
 ## I'm a Full Stack Software Engineer
 
 - 🔭 I am launching my first product over @ <a href='https://www.easter.company/'>Easter Company</a>
-- 🌱 I’m currently learning project management & embedded software
-- 👯 I’m looking to join a disruptive start-up company with ambitious goals!
-- ⚡ Fun fact: I love motorcycles & mechanical engineering too!
+- 🌱 I am currently learning project management & embedded software
+- 👯 I am looking to join a disruptive start-up company with ambitious goals!
+- ⚡ I love motorcycles & mechanical engineering too!
 
 ### Spotify Playing 🎧
 
