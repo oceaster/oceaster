@@ -1,6 +1,4 @@
-# My Developer Bio
-
-## Hi there, I'm Owen 👋
+# Hi there, I'm Owen 👋
 
 [![Website](https://img.shields.io/badge/Easter%20Company-website-orange)](https://www.easter.company)
 
