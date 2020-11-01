@@ -42,7 +42,6 @@
 <br />
 <br />
 
-### :zap: GitHub Stats
 <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=oceaster&show_icons=true&hide_border=true" />
 
 [website]: https://www.easter.company/
