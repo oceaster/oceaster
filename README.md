@@ -1,4 +1,3 @@
-# Hi, I'm Owen Easter 🤖
 
 [![Website](https://img.shields.io/badge/Easter%20Company-website-orange)](https://www.easter.company)
 [![Twitter](https://img.shields.io/twitter/follow/eastercompany?label=Easter%20Company&style=social)](https://twitter.com/eastercompany)
