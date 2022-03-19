@@ -127,6 +127,14 @@ sudo apt install -y deluge
 # Steam (Default Personal Game Store & Library)
 sudo apt install -y steam
 
+# Vivaldi (Default Work & Business; Browser, Email & General productivity engine)
+wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | gpg --dearmor | sudo dd of=/usr/share/keyrings/vivaldi-browser.gpg
+echo "deb [signed-by=/usr/share/keyrings/vivaldi-browser.gpg arch=$(dpkg --print-architecture)] https://repo.vivaldi.com/archive/deb/ stable main" | sudo dd of=/etc/apt/sources.list.d/vivaldi-archive.list
+sudo apt update && sudo apt install vivaldi-stable
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt autoremove -y
+
 # Finalize System Setup with Update, Upgrade and Autoremove
 sudo apt update -y
 sudo apt upgrade -y
