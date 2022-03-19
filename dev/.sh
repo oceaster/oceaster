@@ -1,16 +1,12 @@
 echo
-echo "  [GIT AUTOMATION SCRIPT]"
-echo
-echo "  [WARNING] Always use this script from"
-echo "    within your Dev.git root directory."
-echo
+echo "  [DEV]"
 echo
 echo "  Git 'status' for all repositories"
 echo
 echo
 
 # STATUS Developer Environment Root
-git status
+$DEV git status
 
 # STATUS External Mains
 cd Ext/Overlord && git status
@@ -36,9 +32,4 @@ echo "  [VSCode] Launching as default environment"
 cd $dev
 code .
 echo
-
-# Done
-echo
-echo
-echo "  Done!"
-echo
+clear

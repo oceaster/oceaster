@@ -1,8 +1,5 @@
 echo
-echo "  [GIT AUTOMATION SCRIPT]"
-echo
-echo "  [WARNING] Always use this script from"
-echo "    within your Dev.git root directory."
+echo "  [DEV]   PUSH"
 echo
 echo
 echo "  Checkout 'main' for all repositories"
@@ -10,7 +7,7 @@ echo
 echo
 
 # [CHECKOUT]Developer Environment Root
-git checkout main
+$DEV git checkout main
 
 # [CHECKOUT]External Mains
 cd Ext/Overlord && git checkout main

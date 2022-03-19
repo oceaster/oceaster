@@ -1,5 +1,5 @@
 echo
-echo "  [OVERLORD INSTALLER]"
+echo "  [DEV]   OVERLORD INSTALLER"
 echo
 echo " Installing... [0%] "
 echo
