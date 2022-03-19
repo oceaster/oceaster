@@ -1,4 +1,4 @@
-echo "[GITHUB] Identification Required (optional)"
+echo "[GITHUB] Identification Required"
 echo ""
 echo "User Name:"
 read gitHubName
@@ -8,7 +8,7 @@ read gitHubEmail
 echo ""
 echo ""
 
-echo "[GITHUB] Setting Global Config (optional)"
+echo "[GITHUB] Setting Global Config"
 echo ""
 echo "Setting Email"
 git config --global user.email "${gitHubEmail}"
@@ -45,7 +45,6 @@ sudo apt install -y git wget curl snapd docker docker-compose
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt autoremove -y
-sudo cp ~/Dev/Sys/.bashrc ~/.bashrc
 
 # Python Requirements
 sudo apt install -y python3.9
@@ -78,6 +77,7 @@ cd
 dev.uninstall
 dev.download
 dev.install
+sudo cp ~/Dev/Sys/.bashrc ~/.bashrc
 cd
 
 # Microsoft Edge (Default Web Browser)
@@ -107,7 +107,7 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams
 sudo apt update -y
 sudo apt install -y teams
 
-# Discord (Personal Communication Platform)
+# Discord (Default Personal Communication Platform)
 sudo snap install -y discord
 
 # VLC Media Player (Default Media Player)
@@ -123,6 +123,9 @@ run_keybase
 
 # Deluge (Default Torrent Client)
 sudo apt install -y deluge
+
+# Steam (Default Personal Game Store & Library)
+sudo apt install -y steam
 
 # Finalize System Setup with Update, Upgrade and Autoremove
 sudo apt update -y
