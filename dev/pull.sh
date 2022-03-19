@@ -9,23 +9,21 @@ echo "  Checkout 'main' for all repositories"
 echo
 echo
 
-# CHECKOUT Developer Environment Root
-dev.goto
+# [CHECKOUT]Developer Environment Root
 git checkout main
 
-# CHECKOUT External Mains
-dev.goto
+# [CHECKOUT]External Mains
 cd Ext/Overlord && git checkout main
-dev.goto
-cd Ext/Client && git checkout main
+cd ../Client && git checkout main
+cd ../..
 
-# CHECKOUT Internal Mains
-dev.goto
+# [CHECKOUT]Internal Mains
 cd Int/Staging && git checkout main
+cd ../..
 
-# CHECKOUT System Mains
-dev.goto
-git checkout main
+# [CHECKOUT]System Mains
+cd Sys && git checkout main
+cd ..
 
 # [PULL] Repository & Recurse Submodules
 echo
@@ -34,13 +32,13 @@ echo "  Pull 'main' for all repositories"
 echo
 git pull --recurse-submodule
 echo
+cd Sys && git pull origin main --recurse-submodules && cd ..
 echo
-cd Ext/Overlord && git pull --recurse-submodule && cd ../..
-cd Ext/Client && git pull --recurse-submodule && cd ../..
-cd Int/Staging && git pull --recurse-submodule && cd ../..
+cd Ext/Overlord && git pull origin main --recurse-submodules && cd ../..
+cd Ext/Client && git pull origin main --recurse-submodules && cd ../..
 echo
+cd Int/Staging && git pull origin main --recurse-submodules && cd ../..
 echo
-cd Sys && git pull --recurse-submodule && cd ..
 
 # Done
 echo

@@ -9,18 +9,23 @@ echo "  Checkout 'main' for all repositories"
 echo
 echo
 
-# CHECKOUT Developer Environment Root
-dev.goto && git checkout main
 
-# CHECKOUT External Mains
-dev.goto && cd Ext/Overlord && git checkout main
-dev.goto && cd Ext/Client && git checkout main
+# [CHECKOUT]Developer Environment Root
+git checkout main
 
-# CHECKOUT Internal Mains
-dev.goto && cd Int/Staging && git checkout main
+# [CHECKOUT]External Mains
+cd Ext/Overlord && git checkout main
+cd ../Client && git checkout main
+cd ../..
 
-# CHECKOUT System Mains
-dev.goto && git checkout main
+# [CHECKOUT]Internal Mains
+cd Int/Staging && git checkout main
+cd ../..
+
+# [CHECKOUT]System Mains
+cd Sys && git checkout main
+cd ..
+
 
 # Done
 echo

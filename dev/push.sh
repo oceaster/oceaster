@@ -9,58 +9,61 @@ echo "  Checkout 'main' for all repositories"
 echo
 echo
 
-# CHECKOUT Developer Environment Root
-dev.goto && git checkout main
+# [CHECKOUT]Developer Environment Root
+git checkout main
 
-# CHECKOUT External Mains
-dev.goto && cd Ext/Overlord && git checkout main
-dev.goto && cd Ext/Client && git checkout main
+# [CHECKOUT]External Mains
+cd Ext/Overlord && git checkout main
+cd ../Client && git checkout main
+cd ../..
 
-# CHECKOUT Internal Mains
-dev.goto && cd Int/Staging && git checkout main
+# [CHECKOUT]Internal Mains
+cd Int/Staging && git checkout main
+cd ../..
 
-# CHECKOUT System Mains
-dev.goto && git checkout main
+# [CHECKOUT]System Mains
+cd Sys && git checkout main
+cd ..
 
 # [PULL] Repository & Recurse Submodules
 echo
 echo
 echo "  Pull 'main' for all repositories"
 echo
-dev.goto && git pull --recurse-submodule
+git pull --recurse-submodule
 echo
+cd Sys && git pull origin main --recurse-submodules && cd ..
 echo
-cd Ext/Overlord && git pull --recurse-submodule && dev.goto
-cd Ext/Client && git pull --recurse-submodule && dev.goto
-cd Int/Staging && git pull --recurse-submodule && dev.goto
+cd Ext/Overlord && git pull origin main --recurse-submodules && cd ../..
+cd Ext/Client && git pull origin main --recurse-submodules && cd ../..
 echo
+cd Int/Staging && git pull origin main --recurse-submodules && cd ../..
 echo
-cd Sys && git pull --recurse-submodule && cd ..
 
-# Commit Changes
+# [COMMIT] Changes
 echo
 echo
 echo "  Commit all changes"
 echo
 
-# PUSH External Mains
+# [PUSH] External Mains
 cd Ext/Overlord
 git add . && git commit -m "Auto Commit" && git push
 cd ../Client
 git add . && git commit -m "Auto Commit" && git push
 cd ../..
 
-# PUSH Internal Mains
+# [PUSH] Internal Mains
 cd Int/Staging
 git add . && git commit -m "Auto Commit" && git push
 cd ../..
 
-# PUSH System Mains
+# [PUSH] System Mains
 cd Sys
 git add . && git commit -m "Auto Commit" && git push
 cd ..
 
-# PUSH Developer Environment Root
+# [PUSH] Developer Environment Root
 git add . && git commit -m "Auto Commit" && git push
 
 # Done

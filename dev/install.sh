@@ -6,7 +6,6 @@ echo
 
 dev.checkout
 dev.pull
-dev.goto
 
 cd Ext/Overlord
 python3.9 manage.py tools install
@@ -23,6 +22,9 @@ python3.9 manage.py tools install
 ./o
 ./o test
 ./o
+
+dev.checkout
+dev.pull
 
 clear
 
