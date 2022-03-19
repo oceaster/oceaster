@@ -30,7 +30,7 @@ alias dev.checkout="dev.goto && Sys/dev/checkout.sh"
 alias dev.pull="dev.goto && Sys/dev/pull.sh"
 alias dev.push="dev.goto && Sys/dev/push.sh"
 alias dev.uninstall="dev.pull && dev.push && cd ~/ && rm -rf ~/Easter"
-alias dev.install="git clone git@github.com:EasterCompany/Dev.git --recurse-submodules && Sys/dev/install.sh"
+alias dev.install="dev.uninstall && git clone git@github.com:EasterCompany/Dev.git --recurse-submodules && Sys/dev/install.sh"
 # DEVELOPMENT SYSTEM (SYS) SHORTCUTS
 alias sys.setup="~/Easter/Sys/install.sh"
 alias sys.display="~/Easter/Sys/display.sh"
