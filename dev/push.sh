@@ -35,6 +35,14 @@ echo
 echo "  Pull 'main' for all repositories"
 echo
 git pull --recurse-submodule
+echo
+echo
+cd Ext/Overlord && git pull --recurse-submodule && cd ../..
+cd Ext/Client && git pull --recurse-submodule && cd ../..
+cd Int/Staging && git pull --recurse-submodule && cd ../..
+echo
+echo
+cd Sys && git pull --recurse-submodule && cd ..
 
 # Commit Changes
 echo
