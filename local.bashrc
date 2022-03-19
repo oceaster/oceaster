@@ -1,5 +1,6 @@
-# LOCAL BASHRC FILE
-#   DO NOT EDIT
+#    LOCAL BASHRC FILE
+#      DO NOT EDIT
+#   [19/MAR/22 03:55]
 
 
 #remove duplicate entries from history
@@ -24,12 +25,13 @@ PS1="$LIGHT_GRAY\$(date +%H:%M) \w$YELLOW \$(parse_git_branch)$LIGHT_GREEN\$ $LI
 
 # DEVELOPMENT (DEV) SHORTCUTS
 alias dev.goto="cd ~/Easter"
-alias dev.status="dev.goto && ./Sys/git/.sh"
-alias dev.checkout="dev.goto && ./Sys/git/checkout.sh"
-alias dev.pull="dev.goto && ./Sys/git/pull.sh"
-alias dev.push="dev.goto && ./Sys/git/push.sh"
+alias dev.status="dev.goto && ./Sys/dev/.sh"
+alias dev.install="dev.goto && ./Sys/dev/install.sh"
+alias dev.checkout="dev.goto && ./Sys/dev/checkout.sh"
+alias dev.pull="dev.goto && ./Sys/dev/pull.sh"
+alias dev.push="dev.goto && ./Sys/dev/push.sh"
 # DEVELOPMENT SYSTEM (SYS) SHORTCUTS
-alias sys.setup="~/Easter/Sys/setup.sh"
+alias sys.setup="~/Easter/Sys/install.sh"
 alias sys.display="~/Easter/Sys/display.sh"
 # DOCKER (DKR) SHORTCUTS
 alias docker="~/Easter/Sys/docker/.sh"
