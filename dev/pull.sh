@@ -9,27 +9,20 @@ echo "  Checkout 'main' for all repositories"
 echo
 echo
 
-# Developer Environment Root
-git checkout main
+# CHECKOUT Developer Environment Root
+dev.goto && git checkout main
 
-# External Mains
-cd Ext/Overlord
-git checkout main
-cd ../Client
-git checkout main
-cd ../..
+# CHECKOUT External Mains
+dev.goto && cd Ext/Overlord && git checkout main
+dev.goto && cd Ext/Client && git checkout main
 
-# Internal Mains
-cd Int/Staging
-git checkout main
-cd ../..
+# CHECKOUT Internal Mains
+dev.goto && cd Int/Staging && git checkout main
 
-# System Mains
-cd Sys
-git checkout main
-cd ..
+# CHECKOUT System Mains
+dev.goto && git checkout main
 
-# Pull Repository & Recurse Submodules
+# [PULL] Repository & Recurse Submodules
 echo
 echo
 echo "  Pull 'main' for all repositories"

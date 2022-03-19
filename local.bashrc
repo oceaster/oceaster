@@ -25,11 +25,11 @@ PS1="$LIGHT_GRAY\$(date +%H:%M) \w$YELLOW \$(parse_git_branch)$LIGHT_GREEN\$ $LI
 
 # DEVELOPMENT (DEV) SHORTCUTS
 alias dev.goto="cd ~/Easter"
-alias dev.status="dev.goto && ./Sys/dev/.sh"
-alias dev.install="dev.goto && ./Sys/dev/install.sh"
-alias dev.checkout="dev.goto && ./Sys/dev/checkout.sh"
-alias dev.pull="dev.goto && ./Sys/dev/pull.sh"
-alias dev.push="dev.goto && ./Sys/dev/push.sh"
+alias dev.status="dev.goto && Sys/dev/.sh"
+alias dev.install="dev.goto && Sys/dev/install.sh"
+alias dev.checkout="dev.goto && Sys/dev/checkout.sh"
+alias dev.pull="dev.goto && Sys/dev/pull.sh"
+alias dev.push="dev.goto && Sys/dev/push.sh"
 # DEVELOPMENT SYSTEM (SYS) SHORTCUTS
 alias sys.setup="~/Easter/Sys/install.sh"
 alias sys.display="~/Easter/Sys/display.sh"

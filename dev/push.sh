@@ -10,36 +10,29 @@ echo
 echo
 
 # CHECKOUT Developer Environment Root
-git checkout main
+dev.goto && git checkout main
 
 # CHECKOUT External Mains
-cd Ext/Overlord
-git checkout main
-cd ../Client
-git checkout main
-cd ../..
+dev.goto && cd Ext/Overlord && git checkout main
+dev.goto && cd Ext/Client && git checkout main
 
 # CHECKOUT Internal Mains
-cd Int/Staging
-git checkout main
-cd ../..
+dev.goto && cd Int/Staging && git checkout main
 
 # CHECKOUT System Mains
-cd Sys
-git checkout main
-cd ..
+dev.goto && git checkout main
 
-# Pull Repository & Recurse Submodules
+# [PULL] Repository & Recurse Submodules
 echo
 echo
 echo "  Pull 'main' for all repositories"
 echo
-git pull --recurse-submodule
+dev.goto && git pull --recurse-submodule
 echo
 echo
-cd Ext/Overlord && git pull --recurse-submodule && cd ../..
-cd Ext/Client && git pull --recurse-submodule && cd ../..
-cd Int/Staging && git pull --recurse-submodule && cd ../..
+cd Ext/Overlord && git pull --recurse-submodule && dev.goto
+cd Ext/Client && git pull --recurse-submodule && dev.goto
+cd Int/Staging && git pull --recurse-submodule && dev.goto
 echo
 echo
 cd Sys && git pull --recurse-submodule && cd ..
@@ -50,24 +43,24 @@ echo
 echo "  Commit all changes"
 echo
 
-# COMMIT External Mains
+# PUSH External Mains
 cd Ext/Overlord
 git add . && git commit -m "Auto Commit" && git push
 cd ../Client
 git add . && git commit -m "Auto Commit" && git push
 cd ../..
 
-# COMMIT Internal Mains
+# PUSH Internal Mains
 cd Int/Staging
 git add . && git commit -m "Auto Commit" && git push
 cd ../..
 
-# COMMIT System Mains
+# PUSH System Mains
 cd Sys
 git add . && git commit -m "Auto Commit" && git push
 cd ..
 
-# COMMIT Developer Environment Root
+# PUSH Developer Environment Root
 git add . && git commit -m "Auto Commit" && git push
 
 # Done

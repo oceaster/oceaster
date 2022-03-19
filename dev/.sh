@@ -5,28 +5,24 @@ echo "  [WARNING] Always use this script from"
 echo "    within your Dev.git root directory."
 echo
 echo
-echo "  Checkout 'main' for all repositories"
+echo "  Git 'status' for all repositories"
 echo
 echo
 
-# Developer Environment Root
+# STATUS Developer Environment Root
 git status
 
-# External Mains
-cd Ext/Overlord
-git status
-cd ../Client
-git status
+# STATUS External Mains
+cd Ext/Overlord && git status
+cd ../Client && git status
 cd ../..
 
-# Internal Mains
-cd Int/Staging
-git status
+# STATUS Internal Mains
+cd Int/Staging && git status
 cd ../..
 
-# System Mains
-cd Sys
-git status
+# STATUS System Mains
+cd Sys && git status
 cd ..
 
 # Done
