@@ -24,21 +24,21 @@ PS1="$LIGHT_GRAY\$(date +%H:%M) \w$YELLOW \$(parse_git_branch)$LIGHT_GREEN\$ $LI
 #       for myself.
 
 # DEVELOPMENT (DEV) SHORTCUTS
-alias dev.goto="cd ~/Easter"
+alias dev.goto="cd ~/Dev"
 alias dev.status="dev.goto && Sys/dev/.sh"
 alias dev.checkout="dev.goto && Sys/dev/checkout.sh"
 alias dev.pull="dev.goto && Sys/dev/pull.sh"
 alias dev.push="dev.goto && Sys/dev/push.sh"
-alias dev.uninstall="dev.pull && dev.push && cd ~/ && rm -rf ~/Easter"
-alias dev.download="git clone git@github.com:EasterCompany/Dev.git --recurse-submodules"
-alias dev.install="Sys/dev/install.sh"
+alias dev.uninstall="dev.pull && dev.push && cd ~/ && rm -rf ~/Dev"
+alias dev.download="cd ~/ && git clone git@github.com:EasterCompany/Dev.git --recurse-submodules"
+alias dev.install="dev.goto && Sys/dev/install.sh"
 # DEVELOPMENT SYSTEM (SYS) SHORTCUTS
-alias sys.setup="~/Easter/Sys/install.sh"
-alias sys.display="~/Easter/Sys/display.sh"
+alias sys.setup="~/Dev/Sys/install.sh"
+alias sys.display="~/Dev/Sys/display.sh"
 # DOCKER (DKR) SHORTCUTS
-alias docker="~/Easter/Sys/docker/.sh"
+alias docker="~/Dev/Sys/docker/.sh"
 alias docker.logs="sudo docker logs"
-alias docker.stop="~/Easter/Sys/docker/stop.sh"
-alias docker.reboot="~/Easter/Sys/docker/reboot.sh"
-alias docker.do="~/Easter/Sys/docker/do.sh"
-alias docker.asset="~/Easter/Sys/docker/asset.sh"
+alias docker.stop="~/Dev/Sys/docker/stop.sh"
+alias docker.reboot="~/Dev/Sys/docker/reboot.sh"
+alias docker.do="~/Dev/Sys/docker/do.sh"
+alias docker.asset="~/Dev/Sys/docker/asset.sh"
