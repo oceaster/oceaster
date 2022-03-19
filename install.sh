@@ -53,11 +53,6 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt autoremove -y
 sudo python3.9 -m pip install --upgrade django cors django-cors-headers whitenoise pylint pytest pytest-django django-extensions
-cd
-dev.uninstall
-dev.download
-dev.install
-cd
 
 # Node (LTS Version 16) Requirements
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
@@ -79,30 +74,11 @@ mkdir Games
 mkdir Beeks
 
 # Setup Developer Repository
-cd ~/
-git clone git@github.com:EasterCompany/Dev.git Easter --recurse-submodules
-cd Easter && git checkout main --recurse-submoudles && git pull --recurse-submodules && cd ~/Easter
-
-# Setup Overlord Repository
-cd ~/Easter/Ext/Overlord
-python3.9 manage.py tools
-python3.9 manage.py tools install
-./o
-./o main
-./o
-./o update
-./o
-./o migrate
-./o
-./o install -clients
-./o build -all
-./o
-./o collectstatic
-./o
-./o test
-./o
-cd ~/
-sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
+cd
+dev.uninstall
+dev.download
+dev.install
+cd
 
 # Microsoft Edge (Default Web Browser)
 sudo apt update -y
