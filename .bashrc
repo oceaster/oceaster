@@ -3,8 +3,12 @@
 #   [19/MAR/22 03:55]
 
 
-#remove duplicate entries from history
+# Remove duplicate entries from history
 export HISTCONTROL=ignoreboth
+
+# Support ultrawide 1080p primary display mode
+sudo xrandr --newmode "2424x1080_60.00"  217.50  2424 2576 2832 3240  1080 1083 1093 1120 -hsync +vsync
+sudo xrandr --addmode HDMI-1 2424x1080_60.00
 
 
 # Show current git branch in prompt.
