@@ -45,7 +45,7 @@ sudo apt install -y git wget curl snapd docker docker-compose
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt autoremove -y
-sudo mv ~/Dev/Sys/.bashrc ~/.bashrc
+sudo cp ~/Dev/Sys/.bashrc ~/.bashrc
 
 # Python Requirements
 sudo apt install -y python3.9

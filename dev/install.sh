@@ -6,6 +6,7 @@ echo
 
 dev.checkout
 dev.pull
+cp $dev/Sys/.bashrc ~/.bashrc
 
 cd Ext/Overlord
 python3.9 manage.py tools install
