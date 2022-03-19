@@ -3,11 +3,12 @@ echo "  [OVERLORD INSTALLER]"
 echo
 echo " Installing... [0%] "
 echo
-
-dev.checkout
-dev.pull
-cp $dev/Sys/.bashrc ~/.bashrc
-
+echo
+echo " trying to update existing '.bashrc'"
+$DEV cp Sys/.bashrc ~/.bashrc
+echo
+echo " entering 'Overlord'"
+echo
 cd Ext/Overlord
 python3.9 manage.py tools install
 ./o
@@ -24,8 +25,8 @@ python3.9 manage.py tools install
 ./o test
 ./o
 
-dev.checkout
-dev.pull
+$DEV git checkout main
+$DEV git pull origin main
 
 clear
 
