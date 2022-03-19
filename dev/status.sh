@@ -25,18 +25,6 @@ cd ../..
 cd Sys && git status
 cd ..
 
-echo
-echo "  [TERMINAL 0] Launching in default browser"
-xdg-open https://eu.pythonanywhere.com/user/eastercompany/consoles/243641/ & disown
-echo
-echo "  [DEV App Browser] Launching in default browser"
-xdg-open https://eastercompany.eu.pythonanywhere.com & disown
-echo
-echo "  [VSCode] Launching as default environment"
-cd $dev
-code .
-echo
-
 # Done
 echo
 echo
