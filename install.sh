@@ -38,7 +38,6 @@ echo ""
 # [REMOVE OLD] General APT Requirements
 sudo apt purge -y --auto-remove nodejs npm
 sudo apt purge -y --auto-remove docker docker-compose
-sudo rm ~/.bashrc
 
 # [INSTALL NEW] General APT Requirements
 sudo apt install -y git wget curl snapd docker docker-compose
@@ -47,11 +46,11 @@ sudo apt upgrade -y
 sudo apt autoremove -y
 
 # Python Requirements
-sudo apt install -y python3.9
+sudo apt install -y python3.9 python-is-python3 python3-pip
+sudo python3.9 -m pip3 install --upgrade django cors django-cors-headers whitenoise pylint pytest pytest-django django-extensions
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt autoremove -y
-sudo python3.9 -m pip install --upgrade django cors django-cors-headers whitenoise pylint pytest pytest-django django-extensions
 
 # Node (LTS Version 16) Requirements
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
@@ -77,6 +76,7 @@ cd
 dev.uninstall
 dev.download
 dev.install
+sudo rm ~/.bashrc
 sudo cp ~/Dev/Sys/.bashrc ~/.bashrc
 cd
 
