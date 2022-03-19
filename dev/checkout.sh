@@ -14,16 +14,16 @@ echo
 $DEV git checkout main
 
 # [CHECKOUT]External Mains
-cd Ext/Overlord && git checkout main
-cd ../Client && git checkout main
+cd Ext/Overlord && git branch --set-upstream-to=origin/main main && git checkout main
+cd ../Client && git branch --set-upstream-to=origin/main main && git checkout main
 cd ../..
 
 # [CHECKOUT]Internal Mains
-cd Int/Staging && git checkout main
+cd Int/Staging && git branch --set-upstream-to=origin/main main && git checkout main
 cd ../..
 
 # [CHECKOUT]System Mains
-cd Sys && git checkout main
+cd Sys && git branch --set-upstream-to=origin/main main && git checkout main
 cd ..
 
 
