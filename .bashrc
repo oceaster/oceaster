@@ -30,7 +30,7 @@ alias dev.checkout="dev.goto && Sys/dev/checkout.sh"
 alias dev.pull="dev.goto && Sys/dev/pull.sh"
 alias dev.push="dev.goto && Sys/dev/push.sh"
 alias dev.uninstall="dev.pull && dev.push && cd ~/ && rm -rf ~/Dev"
-alias dev.download="cd ~/ && git clone git@github.com:EasterCompany/Dev.git --recurse-submodules"
+alias dev.download="cd ~/ && git clone git@github.com:EasterCompany/Dev.git --recurse-submodules && rm .bashrc && cp ~/Dev/Sys/.bashrc ~/.bashrc && echo '' && echo 'Press [Enter] to exit terminal. Restart Required.' && exit"
 alias dev.install="dev.goto && Sys/dev/install.sh"
 # DEVELOPMENT SYSTEM (SYS) SHORTCUTS
 alias sys.setup="~/Dev/Sys/install.sh"
