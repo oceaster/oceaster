@@ -26,7 +26,7 @@ PS1="$LIGHT_GRAY\$(date +%H:%M) \w$YELLOW \$(parse_git_branch)$LIGHT_GREEN\$ $LI
 # DEVELOPMENT (DEV) SHORTCUTS
 DEV="cd ~/Dev &&"
 alias DEV="$DEV"
-alias dev.goto="cd $DEV"
+alias dev.goto="cd && $DEV echo && echo ' [DEV] EASTER COMPANY ' && echo"
 alias dev.open="DEV Sys/dev/.sh"
 alias dev.status="DEV Sys/dev/status.sh"
 alias dev.checkout="DEV Sys/dev/checkout.sh"
