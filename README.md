@@ -79,3 +79,22 @@ Then cd into the repo and begin the installation script.
 cd System
 ./install.sh
 ```
+
+Then open the hidden file named `.bashrc` and copy all of its contents to your clipboard
+
+```bash
+cd ~/System
+nano .bashrc
+```
+
+Then open the file with the same name inside your home directory and paste the content into
+that file
+
+```bash
+cd ~
+nano .bashrc
+```
+
+## Setup your Easter Company Developer Environment
+
+...
