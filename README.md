@@ -55,12 +55,15 @@
 Execute the commands below (replace gitHubEmail/Name for your github email/name address)
 
 ```bash
+sudo apt install -y --upgrade git
+
 git config --global user.email "gitHubEmail"
 git config --global user.name "gitHubName"
 
-ssh-keygen -t ed25519 -C "${gitHubEmail}"
+ssh-keygen -t ed25519 -C "gitHubEmail"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
+
 cat ~/.ssh/id_ed25519.pub
 ```
 
