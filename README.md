@@ -44,15 +44,19 @@
 [instagram]: https://www.instagram.com/oweneaster98
 [linkedin]: https://www.linkedin.com/in/owen-easter-a4b9a9159
 
+<br/>
+<br/>
+<br/>
 
+## Developer Environment
 
-# Envrionment Setup
+### Copy my intial system setup by following these instructions
 
 Execute the commands below (replace gitHubEmail/Name for your github email/name address)
 
 ```bash
-git config --global user.email "${gitHubEmail}"
-git config --global user.name "${gitHubName}"
+git config --global user.email "gitHubEmail"
+git config --global user.name "gitHubName"
 
 ssh-keygen -t ed25519 -C "${gitHubEmail}"
 eval "$(ssh-agent -s)"
