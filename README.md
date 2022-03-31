@@ -43,3 +43,32 @@
 [youtube]: https://www.youtube.com/channel/UC6JMuccPLOKRL9cI95ZtJQQ
 [instagram]: https://www.instagram.com/oweneaster98
 [linkedin]: https://www.linkedin.com/in/owen-easter-a4b9a9159
+
+
+
+# Envrionment Setup
+
+Execute the commands below (replace gitHubEmail/Name for your github email/name address)
+
+```bash
+git config --global user.email "${gitHubEmail}"
+git config --global user.name "${gitHubName}"
+
+ssh-keygen -t ed25519 -C "${gitHubEmail}"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+```
+
+Add the ssh key to your github profile and then clone this repository to your home directory
+
+```bash
+git clone git@github.com:oceaster/oceaster.git System --recurse-submodules
+```
+
+Then cd into the repo and begin the installation script.
+
+```bash
+cd System
+./install.sh
+```
