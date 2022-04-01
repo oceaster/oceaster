@@ -28,13 +28,18 @@ echo
 echo
 echo "  Pull 'main' for all repositories"
 echo
+cd ~/Easter/Dev
 git pull --recurse-submodule
 echo
-cd Sys && git pull origin main --recurse-submodules && cd ..
+cd ~/Easter/Dev
+cd Sys && git pull origin main --recurse-submodules
 echo
-cd Ext/Overlord && git pull origin main --recurse-submodules && cd ../..
-cd Ext/Client && git pull origin main --recurse-submodules && cd ../..
+cd ~/Easter/Dev
+cd Ext/Overlord && git pull origin main --recurse-submodules
+cd clients/default_angular && git pull origin main --recurse-submodules && cd ../..
+cd clients/default_react && git pull origin main --recurse-submodules && cd ../..
 echo
+cd ~/Easter/Dev
 cd Int/Staging && git pull origin main --recurse-submodules && cd ../..
 echo
 
@@ -45,24 +50,21 @@ echo "  Commit all changes"
 echo
 
 # [PUSH] External Mains
-cd Ext/Overlord
-git add . && git commit -m "Auto Commit" && git push
-cd ../Client
-git add . && git commit -m "Auto Commit" && git push
-cd ../..
+cd ~/Easter/Dev
+cd Ext/Overlord && git add . && git commit -m "Auto Commit" && git push
+cd clients/default_angular && git add . && git commit -m "Auto Commit" && git push
+cd ../default_react && git add . && git commit -m "Auto Commit" && git push
 
 # [PUSH] Internal Mains
-cd Int/Staging
-git add . && git commit -m "Auto Commit" && git push
-cd ../..
+cd ~/Easter/Dev
+cd Int/Staging && git add . && git commit -m "Auto Commit" && git push
 
 # [PUSH] System Mains
-cd Sys
-git add . && git commit -m "Auto Commit" && git push
-cd ..
+cd ~/Easter/Dev
+cd Sys && git add . && git commit -m "Auto Commit" && git push
 
 # [PUSH] Developer Environment Root
-git add . && git commit -m "Auto Commit" && git push
+cd ~/Easter/Dev && git add . && git commit -m "Auto Commit" && git push
 
 # Done
 echo

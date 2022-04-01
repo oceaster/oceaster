@@ -28,13 +28,18 @@ echo
 echo
 echo "  Pull 'main' for all repositories"
 echo
+cd ~/Easter/Dev
 git pull --recurse-submodule
 echo
-cd Sys && git pull origin main --recurse-submodules && cd ..
+cd ~/Easter/Dev
+cd Sys && git pull origin main --recurse-submodules
 echo
-cd Ext/Overlord && git pull origin main --recurse-submodules && cd ../..
-cd Ext/Client && git pull origin main --recurse-submodules && cd ../..
+cd ~/Easter/Dev
+cd Ext/Overlord && git pull origin main --recurse-submodules
+cd clients/default_angular && git pull origin main --recurse-submodules && cd ../..
+cd clients/default_react && git pull origin main --recurse-submodules && cd ../..
 echo
+cd ~/Easter/Dev
 cd Int/Staging && git pull origin main --recurse-submodules && cd ../..
 echo
 
