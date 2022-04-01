@@ -3,33 +3,16 @@ echo "  [DEV]   OVERLORD INSTALLER"
 echo
 echo " Installing... [0%] "
 echo
+cd ~/Easter
+git clone git@github.com:EasterCompany/Dev.git --recurse-submodules
+git clone git@github.com:EasterCompany/Lab.git --recurse-submodules
+git clone git@github.com:EasterCompany/Prd.git --recurse-submodules
 echo
-echo " trying to update existing '.bashrc'"
-$DEV cp Sys/.bashrc ~/.bashrc
-echo
-echo " entering 'Overlord'"
-echo
-cd Ext/Overlord
+dev.goto
+dev.pull
+cd ~/Easter/Dev/Ext/Overlord
 python3.9 manage.py tools install
-./o
-./o install
-./o
-./o install -clients
-./o
-./o migrate
-./o
-./o build -all
-./o
-./o collectstatic
-./o
-./o test
-./o
-
-$DEV git checkout main
-$DEV git pull origin main
-
 clear
-
 echo
 echo "  [OVERLORD INSTALLER]"
 echo

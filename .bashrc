@@ -6,15 +6,11 @@
 # Remove duplicate entries from history
 export HISTCONTROL=ignoreboth
 
-# Support ultrawide 1080p primary display mode
-sudo xrandr --newmode "2424x1080_60.00"  217.50  2424 2576 2832 3240  1080 1083 1093 1120 -hsync +vsync
-sudo xrandr --addmode HDMI-1 2424x1080_60.00
-
-
 # Show current git branch in prompt.
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
+
 RED="\[\033[0;31m\]"
 YELLOW="\[\033[0;33m\]"
 GREEN="\[\033[0;32m\]"
@@ -22,13 +18,12 @@ LIGHT_GREEN="\[\033[1;32m\]"
 LIGHT_GRAY="\[\033[0;37m\]"
 PS1="$LIGHT_GRAY\$(date +%H:%M) \w$YELLOW \$(parse_git_branch)$LIGHT_GREEN\$ $LIGHT_GRAY"
 
-
 # System Module Shortcuts
 #       Custom tricks & scripts by myself
 #       for myself.
 
 # DEVELOPMENT (DEV) SHORTCUTS
-DEV="cd ~/Dev &&"
+DEV="cd ~/Easter/Dev &&"
 DEV_USR="git config user.name"
 DEV_EMAIL="git config user.email"
 alias DEV="$DEV"
