@@ -3,7 +3,7 @@ sudo apt purge -y --auto-remove nodejs npm
 sudo apt purge -y --auto-remove docker docker-compose
 
 # [INSTALL NEW] General APT Requirements
-sudo apt install -y git wget curl snapd docker docker-compose
+sudo apt install -y git wget curl snapd docker docker-compose gnome-keyring
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt autoremove -y
