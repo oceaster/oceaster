@@ -11,3 +11,4 @@ echo
 cd ~/Easter/Dev/Ext/Overlord
 rm db.sqlite3
 echo
+echo "  Successfully cleared database    [✔️]"

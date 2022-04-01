@@ -30,6 +30,3 @@ cd Sys && git status
 cd ..
 echo
 echo
-# Done
-echo "  Done!"
-echo

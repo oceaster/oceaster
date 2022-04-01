@@ -16,7 +16,7 @@ clear
 echo
 echo "  [OVERLORD INSTALLER]"
 echo
-echo " Installed! [100%] "
+echo " Installed!             [100% ✔️]"
 echo
 echo " Successfully Installed Overlord."
 echo
