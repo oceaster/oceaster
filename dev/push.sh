@@ -65,6 +65,7 @@ cd Sys && git add . && git commit -m "Auto Commit" && git push
 
 # [PUSH] Developer Environment Root
 cd ~/Easter/Dev && git add . && git commit -m "Auto Commit" && git push
+git add . && git commit -m "Auto Commit" && git push
 
 # Done
 echo
