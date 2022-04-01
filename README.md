@@ -79,3 +79,31 @@ Then cd into the repo and begin the installation script.
 cd System
 ./install.sh
 ```
+
+Then open the hidden file named `.bashrc` and copy all of its contents to your clipboard
+
+```bash
+cd ~/System
+nano .bashrc
+```
+
+Then open the file with the same name inside your home directory and paste the content into
+that file
+
+```bash
+cd ~
+nano .bashrc
+```
+
+### Setup an Easter Company Dev Environment
+
+If you're an Easter Company Developer looking to setup their Environment; you will need to verify you have
+read & write access within the Easter Company Organisation on Github - then proceed with the following steps.
+
+- Run the `~/System/dev/install.sh` script.
+- Edit your `~/Easter/Dev/Ext/Overlord/.config` files
+- Run `./o migrate` from within `../Overlord` directory
+- Run `./o install -clients`
+- Run `./o build -all`
+- Run `./o runserver`
+- Success!

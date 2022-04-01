@@ -10,7 +10,6 @@ $DEV git status
 
 # STATUS External Mains
 cd Ext/Overlord && git status
-cd ../Client && git status
 cd ../..
 
 # STATUS Internal Mains
