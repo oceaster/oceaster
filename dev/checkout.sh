@@ -11,20 +11,31 @@ echo
 
 # [CHECKOUT]Developer Environment Root
 $DEV git checkout main
+echo
 
 # [CHECKOUT]External Mains
-cd Ext/Overlord && git branch --set-upstream-to=origin/main main && git checkout main
-cd clients/default_angular && git branch --set-upstream-to=origin/main main && git checkout main
-cd ../default_react && git branch --set-upstream-to=origin/main main && git checkout main
 cd ~/Easter/Dev
+cd Ext/Overlord
+git branch --set-upstream-to=origin/main main && git checkout main
+
+cd clients/default_angular
+git branch --set-upstream-to=origin/main main && git checkout main
+
+cd ../default_react
+git branch --set-upstream-to=origin/main main && git checkout main
+echo
 
 # [CHECKOUT]Internal Mains
-cd Int/Staging && git branch --set-upstream-to=origin/main main && git checkout main
 cd ~/Easter/Dev
+cd Int/Staging
+git branch --set-upstream-to=origin/main main && git checkout main
+echo
 
 # [CHECKOUT]System Mains
-cd Sys && git branch --set-upstream-to=origin/main main && git checkout main
 cd ~/Easter/Dev
+cd Sys
+git branch --set-upstream-to=origin/main main && git checkout main
+echo
 
 # Done
 echo
