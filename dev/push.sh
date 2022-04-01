@@ -50,21 +50,29 @@ echo "  Commit all changes"
 echo
 
 # [PUSH] External Mains
+cd ~/Easter/Dev/Ext/Overlord
+cd clients/default_angular
+git add . && git commit -m "Auto Commit" && git push
+cd ../default_react
+git add . && git commit -m "Auto Commit" && git push
+
 cd ~/Easter/Dev
-cd Ext/Overlord && git add . && git commit -m "Auto Commit" && git push
-cd clients/default_angular && git add . && git commit -m "Auto Commit" && git push
-cd ../default_react && git add . && git commit -m "Auto Commit" && git push
+cd Ext/Overlord
+git add . && git commit -m "Auto Commit" && git push
 
 # [PUSH] Internal Mains
 cd ~/Easter/Dev
-cd Int/Staging && git add . && git commit -m "Auto Commit" && git push
+cd Int/Staging
+git add . && git commit -m "Auto Commit" && git push
 
 # [PUSH] System Mains
 cd ~/Easter/Dev
-cd Sys && git add . && git commit -m "Auto Commit" && git push
+cd Sys
+git add . && git commit -m "Auto Commit" && git push
 
 # [PUSH] Developer Environment Root
-cd ~/Easter/Dev && git add . && git commit -m "Auto Commit" && git push
+cd ~/Easter/Dev
+git add . && git commit -m "Auto Commit" && git push
 git add . && git commit -m "Auto Commit" && git push
 
 # Done
