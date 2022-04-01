@@ -39,6 +39,7 @@ alias dev.install="DEV Sys/dev/install.sh"
 alias dev.update="DEV dev.uninstall && dev.download"
 # DEVELOPMENT SYSTEM (SYS) SHORTCUTS
 alias sys.setup="DEV Sys/install.sh"
+alias sys.update="sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y"
 alias sys.display="DEV Sys/display.sh"
 # DOCKER (DKR) SHORTCUTS
 alias dkr.open="DEV Sys/docker/.sh"
@@ -47,3 +48,10 @@ alias dkr.stop="DEV Sys/docker/stop.sh"
 alias dkr.reboot="DEV Sys/docker/reboot.sh"
 alias dkr.do="DEV Sys/docker/do.sh"
 alias dkr.asset="DEV Sys/docker/asset.sh"
+
+# OVERLORD (O) SHORTCUTS
+alias O~="./o"
+alias o.install="./o install"
+alias o.install-clients="./ install -clients"
+alias o.build="./o build -all"
+alias o.run="./o build -all && ./o migrate && ./o runserver"
