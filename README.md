@@ -95,6 +95,13 @@ cd ~
 nano .bashrc
 ```
 
-## Setup your Easter Company Developer Environment
+### Setup an Easter Company Dev Environment
 
-...
+If you're an Easter Company Developer looking to setup their Environment; you will need to verify you have
+read & write access within the Easter Company Organisation on Github - then proceed with the following steps.
+
+- Run the `~/System/dev/install.sh` script.
+- Edit your `~/Easter/Dev/Ext/Overlord/.config` files
+- Run `./o migrate` from within `../Overlord` directory
+- Run `./o runserver`
+- Success!
