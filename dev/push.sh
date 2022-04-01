@@ -102,5 +102,5 @@ git add . && git commit -m "Auto Commit" && git push
 # Done
 echo
 echo
-echo "  Successfully auto pushed               [ 100% ✔️]"
+echo "  Successfully auto pushed             100% ✔️    "
 echo

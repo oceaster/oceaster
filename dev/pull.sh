@@ -59,5 +59,5 @@ echo
 # Done
 echo
 echo
-echo "  Successfully pulled 'main'              [ 100% ✔️]"
+echo "  Successfully pulled 'main'              100% ✔️ "
 echo

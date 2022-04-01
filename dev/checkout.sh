@@ -40,5 +40,5 @@ echo
 # Done
 echo
 echo
-echo "  Successfully Checked out 'main'                     [ 100% ✔️]"
+echo "  Successfully Checked out 'main'                     100% ✔️"
 echo
