@@ -103,5 +103,7 @@ read & write access within the Easter Company Organisation on Github - then proc
 - Run the `~/System/dev/install.sh` script.
 - Edit your `~/Easter/Dev/Ext/Overlord/.config` files
 - Run `./o migrate` from within `../Overlord` directory
+- Run `./o install -clients`
+- Run `./o build -all`
 - Run `./o runserver`
 - Success!
