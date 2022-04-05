@@ -52,7 +52,7 @@
 
 ### Copy my intial system setup by following these instructions
 
-Execute the commands below (replace gitHubEmail/Name for your github email/name address)
+Execute the commands below (replace `gitHubEmail` & `gitHubName` with your github `email` & `username` respectively)
 
 ```bash
 sudo apt install -y --upgrade git
