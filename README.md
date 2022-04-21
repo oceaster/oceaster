@@ -20,7 +20,7 @@ Contact me personally @ oceaster@gmail.com
 
 ###### Easter Company
 <a href="https://www.easter.company"><pre> Default Site                 (Home)              [<b>DISABLED</b>] </pre></a>
-<a href="https://eastercompany.eu.pythonanywhere.com">
+<a href="https://eastercompany.eu.pythonanywhere.com/e_panel">
                                      <pre> E Panel            (Administration)               [<b>PRIVATE</b>] </pre></a>
                                      
 ###### Customer Overlord Clients
