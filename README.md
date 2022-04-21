@@ -48,7 +48,7 @@
 <br/>
 <br/>
 
-## Developer Environment
+## Automated Development Environment:
 
 ### Copy my intial system setup by following these instructions
 
