@@ -51,22 +51,5 @@ Contact me personally @ oceaster@gmail.com
 
 <br/>
 <br/>
-
-### Social Presence
-
-[<img align="left" alt="easter.company" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
-[<img align="left" alt="Easter Company | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="Easter Company | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="Easter Company | Facebook" width="22px" src="https://image.freepik.com/free-icon/facebook-logo_318-53644.jpg" />][facebook]
-
-[website]: https://www.easter.company/
-[twitter]: https://twitter.com/eastercompany
-[facebook]: https://facebook.com/eastercompany
-[youtube]: https://www.youtube.com/channel/UC6JMuccPLOKRL9cI95ZtJQQ
-
-
 <br/>
 <br/>
-<br/>
-<br/>
-
