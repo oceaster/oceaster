@@ -1,6 +1,21 @@
-
 [![Website](https://img.shields.io/badge/Easter%20Company-website-orange)](https://www.easter.company)
 [![Twitter](https://img.shields.io/twitter/follow/eastercompany?label=Easter%20Company&style=social)](https://twitter.com/eastercompany)
+
+<br/>
+
+### Production Applications
+
+###### Easter Company
+<a href="https://www.easter.company"><pre> Default Site                 (Home)              [<b style="color: red !important;">DISABLED</b>] </pre></a>
+<a href="https://eastercompany.eu.pythonanywhere.com">
+                                     <pre> E Panel            (Administration)              [<b style="color: green !important;">PRIVATE</b>] </pre></a>
+                                     
+###### Customer Overlord Clients
+<a href="https://www.pardoewray.com"><pre> Parode Wray        (Career Finder)               [<b style="color: green !important;">LIVE</b>] </pre></a>
+<a href="https://www.inverair.co.uk"><pre> Inverair           (Drone Services)              [<b style="color: green !important;">LIVE</b>] </pre></a>
+
+<br/>
+<br/>
 
 ### Frameworks & Libraries
 
@@ -28,22 +43,19 @@
 <br/>
 <br/>
 
-### Follow Me
+### Social Presence
 
 [<img align="left" alt="easter.company" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
 [<img align="left" alt="Easter Company | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
 [<img align="left" alt="Easter Company | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="Easter Company | Facebook" width="22px" src="https://image.freepik.com/free-icon/facebook-logo_318-53644.jpg" />][facebook]
-[<img align="left" alt="Owen Cameron Easter | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="Owen Cameron Easter | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 [website]: https://www.easter.company/
 [twitter]: https://twitter.com/eastercompany
 [facebook]: https://facebook.com/eastercompany
 [youtube]: https://www.youtube.com/channel/UC6JMuccPLOKRL9cI95ZtJQQ
-[instagram]: https://www.instagram.com/oweneaster98
-[linkedin]: https://www.linkedin.com/in/owen-easter-a4b9a9159
 
+<br/>
 <br/>
 <br/>
 <br/>
