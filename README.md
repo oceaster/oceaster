@@ -1,3 +1,4 @@
+
 [![Website](https://img.shields.io/badge/Easter%20Company-website-orange)](https://www.easter.company)
 [![Twitter](https://img.shields.io/twitter/follow/eastercompany?label=Easter%20Company&style=social)](https://twitter.com/eastercompany)
 
@@ -6,13 +7,13 @@
 ### Production Applications
 
 ###### Easter Company
-<a href="https://www.easter.company"><pre> Default Site                 (Home)              [<b style="color: red !important;">DISABLED</b>] </pre></a>
+<a href="https://www.easter.company"><pre> Default Site                 (Home)              [<b>DISABLED</b>] </pre></a>
 <a href="https://eastercompany.eu.pythonanywhere.com">
-                                     <pre> E Panel            (Administration)              [<b style="color: green !important;">PRIVATE</b>] </pre></a>
+                                     <pre> E Panel            (Administration)               [<b>PRIVATE</b>] </pre></a>
                                      
 ###### Customer Overlord Clients
-<a href="https://www.pardoewray.com"><pre> Parode Wray        (Career Finder)               [<b style="color: green !important;">LIVE</b>] </pre></a>
-<a href="https://www.inverair.co.uk"><pre> Inverair           (Drone Services)              [<b style="color: green !important;">LIVE</b>] </pre></a>
+<a href="https://www.pardoewray.com"><pre> Parode Wray        (Career Finder)                   [<b>LIVE</b>] </pre></a>
+<a href="https://www.inverair.co.uk"><pre> Inverair           (Drone Services)                  [<b>LIVE</b>] </pre></a>
 
 <br/>
 <br/>
@@ -55,10 +56,12 @@
 [facebook]: https://facebook.com/eastercompany
 [youtube]: https://www.youtube.com/channel/UC6JMuccPLOKRL9cI95ZtJQQ
 
+
 <br/>
 <br/>
 <br/>
 <br/>
+
 
 ## Hello World!
 
