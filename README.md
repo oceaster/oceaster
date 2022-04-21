@@ -52,6 +52,6 @@
 
 I'm a freelance developer with ~7* years industry experience (5 self-employed, with ~2 years employed during the same 5 year period) Figure that one out.
 
-Currently I'm my focus is on releasing Overlord Version 1.1 as soon as possible so that I can take a short hiatus away from the project before beggining a new sprint in the Autum later this year which will involve moving E Panel to an independent platform away from your clients production domain.
+Currently my focus is on releasing Overlord Version 1.1 as soon as possible so that I can take a short hiatus away from the project before beggining a new sprint in the Autum later this year which will involve moving E Panel to an independent platform away from your clients production domain.
 
 I will be more active on twiiter; so follow me and we can connect.
