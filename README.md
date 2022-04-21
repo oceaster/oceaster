@@ -2,7 +2,7 @@
 [![Website](https://img.shields.io/badge/Easter%20Company-website-orange)](https://www.easter.company)
 [![Twitter](https://img.shields.io/twitter/follow/eastercompany?label=Easter%20Company&style=social)](https://twitter.com/eastercompany)
 
-### Current Tool Box:
+### Frameworks & Libraries:
 
 <img align="left" alt="Flask" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flask/flask.png" />
 <img align="left" alt="Django" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png" />
@@ -15,7 +15,7 @@
 <br/>
 <br/>
 
-### Preferred Languages:
+### Languages:
 
 <img align="left" alt="SQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />
 <img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />
@@ -48,62 +48,10 @@
 <br/>
 <br/>
 
-## Automated Development Environment:
+## Hello World!
 
-### Copy my intial system setup by following these instructions
+I'm a freelance developer with ~7* years industry experience (5 self-employed, with ~2 years employed during the same 5 year period) Figure that one out.
 
-Execute the commands below (replace `gitHubEmail` & `gitHubName` with your github `email` & `username` respectively)
+Currently I'm my focus is on releasing Overlord Version 1.1 as soon as possible so that I can take a short hiatus away from the project before beggining a new sprint in the Autum later this year which will involve moving E Panel to an independent platform away from your clients production domain.
 
-```bash
-sudo apt install -y --upgrade git
-
-git config --global user.email "gitHubEmail"
-git config --global user.name "gitHubName"
-
-ssh-keygen -t ed25519 -C "gitHubEmail"
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-
-cat ~/.ssh/id_ed25519.pub
-```
-
-Add the ssh key to your github profile and then clone this repository to your home directory
-
-```bash
-git clone git@github.com:oceaster/oceaster.git System --recurse-submodules
-```
-
-Then cd into the repo and begin the installation script.
-
-```bash
-cd System
-./install.sh
-```
-
-Then open the hidden file named `.bashrc` and copy all of its contents to your clipboard
-
-```bash
-cd ~/System
-nano .bashrc
-```
-
-Then open the file with the same name inside your home directory and paste the content into
-that file
-
-```bash
-cd ~
-nano .bashrc
-```
-
-### Setup an Easter Company Dev Environment
-
-If you're an Easter Company Developer looking to setup their Environment; you will need to verify you have
-read & write access within the Easter Company Organisation on Github - then proceed with the following steps.
-
-- Run the `~/System/dev/install.sh` script.
-- Edit your `~/Easter/Dev/Ext/Overlord/.config` files
-- Run `./o migrate` from within `../Overlord` directory
-- Run `./o install -clients`
-- Run `./o build -all`
-- Run `./o runserver`
-- Success!
+I will be more active on twiiter; so follow me and we can connect.
