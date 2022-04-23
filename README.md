@@ -1,10 +1,10 @@
 
+# Hello World!
+
 [![Website](https://img.shields.io/badge/Easter%20Company-website-orange)](https://www.easter.company)
 [![Twitter](https://img.shields.io/twitter/follow/eastercompany?label=Easter%20Company&style=social)](https://twitter.com/eastercompany)
 
 <br/>
-
-## Hello World!
 
 I'm a freelance developer with ~7* years industry experience (5 self-employed, with ~2 years employed during the same 5 year period) Figure that one out.
 Former **Remote Software Engineer** for <a href="https://beeksgroup.com/"> Beeks Group </a> & Former **Full Stack Intern** for <a href="https://www.findmypast.co.uk"> Find My Past </a>. 
