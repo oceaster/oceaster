@@ -6,7 +6,8 @@
 
 <br/>
 
-I'm a freelance developer with ~7* years industry experience (5 self-employed, with ~2 years employed during the same 5 year period) Figure that one out.
+I'm a freelance developer with 5 years experience running my own company and ~2 years employed by another.
+
 Former **Remote Software Engineer** for <a href="https://beeksgroup.com/"> Beeks Group </a> & Former **Full Stack Intern** for <a href="https://www.findmypast.co.uk"> Find My Past </a>. 
 
 Currently my focus is on releasing Overlord Version 1.1+ for <a href="https://github.com/EasterCompany"> Easter Company </a> and looking for contract or full time employment opportunities.
