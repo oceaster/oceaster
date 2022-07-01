@@ -12,8 +12,6 @@ Former **Remote Software Engineer** for <a href="https://beeksgroup.com/"> Beeks
 
 Currently my focus is on releasing Overlord Version 1.1+ for <a href="https://github.com/EasterCompany"> Easter Company </a> and looking for contract or full time employment opportunities.
 
-Contact me personally here on my priority email address: oweneaster@outlook.com
-
 <br/>
 
 ### Frameworks & Libraries
