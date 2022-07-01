@@ -6,7 +6,7 @@
 
 <br/>
 
-I'm a freelance developer with 5 years experience running my own company and 2 years employed by others.
+I'm a freelance developer with 5 years experience running my own company and with 2 years exprience being employed by others.
 
 Former **Remote Software Engineer** for <a href="https://beeksgroup.com/"> Beeks Group </a> & Former **Full Stack Intern** for <a href="https://www.findmypast.co.uk"> Find My Past </a>. 
 
