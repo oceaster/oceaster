@@ -1,18 +1,5 @@
-
-# Hello World!
-
 [![Website](https://img.shields.io/badge/Easter%20Company-website-orange)](https://www.easter.company)
 [![Twitter](https://img.shields.io/twitter/follow/eastercompany?label=Easter%20Company&style=social)](https://twitter.com/eastercompany)
-
-<br/>
-
-I'm a freelance developer with 5 years experience running my own company and with 2 years exprience being employed by others.
-
-Former **Remote Software Engineer** for <a href="https://beeksgroup.com/"> Beeks Group </a> & Former **Full Stack Intern** for <a href="https://www.findmypast.co.uk"> Find My Past </a>. 
-
-Currently my focus is on releasing Overlord Version 1.1+ for <a href="https://github.com/EasterCompany"> Easter Company </a> and looking for contract or full time employment opportunities.
-
-<br/>
 
 ### Frameworks & Libraries
 
@@ -31,7 +18,3 @@ Currently my focus is on releasing Overlord Version 1.1+ for <a href="https://gi
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 <img align="left" alt="TypeScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" />
 <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-
-
-<br/>
-<br/>
