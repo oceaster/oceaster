@@ -5,7 +5,7 @@
 
 ### Current Projects
 
-[Overlord Framework](https://www.easter.company/overlord) |
+[Overlord](https://www.easter.company/overlord) |
 [ePanel](https://www.easter.company/epanel) |
 [eBooks](https://www.easter.company/ebooks)
 
