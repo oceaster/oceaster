@@ -1,6 +1,12 @@
 [![Website](https://img.shields.io/badge/Easter%20Company-website-orange)](https://www.easter.company)
 [![Twitter](https://img.shields.io/twitter/follow/eastercompany?label=Easter%20Company&style=social)](https://twitter.com/eastercompany)
 
+### Projects
+
+[Overlord Framework](https://www.easter.company/overlord)
+[ePanel](https://www.easter.company/epanel)
+[eBooks](https://www.easter.company/ebooks)
+
 ### Languages & Tools
 
 <img align="left" alt="Django" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png" />
