@@ -1,10 +1,12 @@
+## Easter Company
+
 [![Website](https://img.shields.io/badge/Easter%20Company-website-orange)](https://www.easter.company)
 [![Twitter](https://img.shields.io/twitter/follow/eastercompany?label=Easter%20Company&style=social)](https://twitter.com/eastercompany)
 
-### Projects
+### Current Projects
 
-[Overlord Framework](https://www.easter.company/overlord)
-[ePanel](https://www.easter.company/epanel)
+[Overlord Framework](https://www.easter.company/overlord) |
+[ePanel](https://www.easter.company/epanel) |
 [eBooks](https://www.easter.company/ebooks)
 
 ### Languages & Tools
