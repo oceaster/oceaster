@@ -1,23 +1,8 @@
-## Easter Company
+[![Website](https://img.shields.io/twitter/url?color=orange&label=Website&logo=kubuntu&logoColor=orange&style=for-the-badge&url=https%3A%2F%2Fwww.easter.company)](https://www.easter.company)
+[![Twitter](https://img.shields.io/twitter/url?color=9cf&label=twitter&logo=twitter&logoColor=9cf&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2Feastercompany)](https://twitter.com/eastercompany)
+[![YouTube](https://img.shields.io/twitter/url?color=red&label=youtube&logo=youtube&logoColor=red&style=for-the-badge&url=https%3A%2F%2Fwww.youtube.com%2F%40eastercompany)](https://www.youtube.com/@eastercompany)
+[![Facebook](https://img.shields.io/twitter/url?color=blue&label=facebook&logo=facebook&logoColor=blue&style=for-the-badge&url=https%3A%2F%2Fwww.facebook.com%2Feastercompany)](https://www.facebook.com/eastercompany)
+[![Instagram](https://img.shields.io/twitter/url?color=yellow&label=instagram&logo=instagram&logoColor=yellow&style=for-the-badge&url=https%3A%2F%2Fwww.instagram.com%2Feastercompany)](https://www.instagram.com/eastercompany)
+[![Github](https://img.shields.io/twitter/url?color=lightgrey&label=github&logo=github&logoColor=lightgrey&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Feastercompany)](https://github.com/eastercompany)
 
-[![Website](https://img.shields.io/badge/Easter%20Company-website-orange)](https://www.easter.company)
-[![Twitter](https://img.shields.io/twitter/follow/eastercompany?label=Easter%20Company&style=social)](https://twitter.com/eastercompany)
-
-### Current Projects
-
-[Overlord](https://www.easter.company/overlord) |
-[ePanel](https://www.easter.company/epanel) |
-[eBooks](https://www.easter.company/ebooks)
-
-### Languages & Tools
-
-<img align="left" alt="Django" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png" />
-<img align="left" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
-<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
-<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/git/git.png" />
-<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
-<img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />
-<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<img align="left" alt="TypeScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" />
-<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+###### Follow Easter Company Anywhere!
