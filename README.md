@@ -4,3 +4,5 @@
 [![Facebook](https://img.shields.io/twitter/url?color=blue&label=facebook&logo=facebook&logoColor=blue&style=for-the-badge&url=https%3A%2F%2Fwww.facebook.com%2Feastercompany)](https://www.facebook.com/eastercompany)
 [![Instagram](https://img.shields.io/twitter/url?color=yellow&label=instagram&logo=instagram&logoColor=yellow&style=for-the-badge&url=https%3A%2F%2Fwww.instagram.com%2Feastercompany)](https://www.instagram.com/eastercompany)
 [![Github](https://img.shields.io/twitter/url?color=lightgrey&label=github&logo=github&logoColor=lightgrey&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Feastercompany)](https://github.com/eastercompany)
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=oceaster&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
