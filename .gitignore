@@ -1,7 +1,19 @@
-<<<<<<< HEAD
-*
-=======
+# Ignore all by default
 /*
+
+# Include auto*sh files
+!/.auto.*.sh
+
+# Include config/nvim*
 !/.config/nvim/*
 /.config/nvim/lazy-lock.json
->>>>>>> 2c4c25a62dad217392df9afaa92d979f774535ce
+
+# Ignore extras (that might have passed wildcard checks)
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
