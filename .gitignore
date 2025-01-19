@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 *
+=======
+/*
+!/.config/nvim/*
+/.config/nvim/lazy-lock.json
+>>>>>>> 2c4c25a62dad217392df9afaa92d979f774535ce

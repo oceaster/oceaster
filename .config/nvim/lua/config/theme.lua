@@ -9,7 +9,7 @@ require("tokyonight").setup({
     functions = {},
     variables = {},
     sidebars = "transparent",
-    floats = "normal",
+    floats = "transparent",
   },
   sidebars = { "qf", "help" },
   day_brightness = 0.3,
