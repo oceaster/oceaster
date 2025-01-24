@@ -1,7 +1,7 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-alias ssh.laptop="ssh owen@192.168.1.169 -p 22"
+alias ssh.laptop="ssh owen@192.168.1.172 -p 22"
 alias ssh.desktop="ssh owen@192.168.1.190 -p 22"
 
 # If not running interactively, don't do anything
@@ -116,9 +116,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-# Cargo package manager environment variables
-. "$HOME/.cargo/env"
 
 # NVM (node/npm version manager) environment variables
 export NVM_DIR="$HOME/.nvm"
