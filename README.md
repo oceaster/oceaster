@@ -23,6 +23,5 @@
 </div>
 <br/>
 <p align="center">
-  Currently working for Aridhia Informatics doing A.I.<br/>
-  research & development for biomedical applications.
+  What should I work on next?
 </p>
