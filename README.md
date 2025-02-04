@@ -1,10 +1,9 @@
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=oceaster&show_icons=true&number_format=short&locale=en&theme=tokyonight&include_all_commits=true&card_width=420&custom_title=General" alt="general"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=oceaster&show_icons=true&number_format=short&locale=en&theme=tokyonight&include_all_commits=true&card_width=420" alt="general"/>
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=oceaster&show_icons=true&number_format=short&locale=en&theme=tokyonight&card_width=436&custom_title=Lanaguages" alt="language"/>
   <br/>
-  
-  <br/><br/><br/>
+  <br/>
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=eastercompany&repo=Overlord&show_icons=true&number_format=short&locale=en&theme=tokyonight" alt="Overlord"/>
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=eastercompany&repo=RDFS&show_icons=true&number_format=short&locale=en&theme=tokyonight" alt="RDFS"/>
@@ -12,8 +11,8 @@
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=oceaster&repo=Dexter&show_icons=true&number_format=short&locale=en&theme=tokyonight" alt="Dexter"/>
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=oceaster&repo=Sleepy&show_icons=true&number_format=short&locale=en&theme=tokyonight" alt="Sleepy"/>
-  
-  <br/><br/><br/>
+  <br/>
+  <br/>
   <a href="https://easter.company">
     <img src="https://img.icons8.com/?size=32&id=1349&format=png&color=FFFFFF" alt="website"/>
   </a>
