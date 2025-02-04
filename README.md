@@ -1,11 +1,11 @@
 <div align="center">
-  <h3 align="center">Personal Statistics</h3>
+  <h3 align="center">Profile Statistics</h3>
   <img src="https://github-readme-stats.vercel.app/api?username=oceaster&show_icons=true&number_format=short&locale=en&theme=tokyonight&include_all_commits=true&card_width=420" alt="general"/>
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=oceaster&show_icons=true&number_format=short&locale=en&theme=tokyonight&card_width=436&custom_title=Lanaguages" alt="language"/>
   <br/>
   <br/>
-  <h3 align="center">Active Projects</h3>
+  <h3 align="center">Open Source Projects</h3>
   <a href="https://github.com/EasterCompany/Overlord">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=eastercompany&repo=Overlord&show_icons=true&number_format=short&locale=en&theme=tokyonight" alt="Overlord"/>
   </a>
