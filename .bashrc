@@ -3,6 +3,7 @@
 # for examples
 alias ssh.laptop="ssh owen@192.168.1.172 -p 22"
 alias ssh.desktop="ssh owen@192.168.1.190 -p 22"
+alias ssh.server="ssh ubuntu@18.135.58.9 -p 22"
 
 # If not running interactively, don't do anything
 case $- in
