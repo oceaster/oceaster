@@ -1,17 +1,17 @@
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=oceaster&show_icons=true&number_format=short&locale=en&theme=tokyonight&include_all_commits=true&card_width=420&custom_title=Profile" alt="general stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=oceaster&show_icons=true&number_format=short&locale=en&theme=tokyonight&include_all_commits=true&card_width=420&custom_title=General" alt="general"/>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=oceaster&show_icons=true&number_format=short&locale=en&theme=tokyonight&card_width=436&custom_title=Lanaguages" alt="language stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=oceaster&show_icons=true&number_format=short&locale=en&theme=tokyonight&card_width=436&custom_title=Lanaguages" alt="language"/>
   <br/>
   
   <br/><br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=eastercompany&repo=Overlord&show_icons=true&number_format=short&locale=en&theme=tokyonight&card_width=436" alt="Overlord"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=eastercompany&repo=Overlord&show_icons=true&number_format=short&locale=en&theme=tokyonight" alt="Overlord"/>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=eastercompany&repo=RDFS&show_icons=true&number_format=short&locale=en&theme=tokyonight&card_width=436" alt="RDFS"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=eastercompany&repo=RDFS&show_icons=true&number_format=short&locale=en&theme=tokyonight" alt="RDFS"/>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=oceaster&repo=Dexter&show_icons=true&number_format=short&locale=en&theme=tokyonight&card_width=436" alt="Dexter"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=oceaster&repo=Dexter&show_icons=true&number_format=short&locale=en&theme=tokyonight" alt="Dexter"/>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=oceaster&repo=Sleepy&show_icons=true&number_format=short&locale=en&theme=tokyonight&card_width=436" alt="Sleepy"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=oceaster&repo=Sleepy&show_icons=true&number_format=short&locale=en&theme=tokyonight" alt="Sleepy"/>
   
   <br/><br/><br/>
   <a href="https://easter.company">
